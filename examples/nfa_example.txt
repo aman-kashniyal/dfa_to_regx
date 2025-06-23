@@ -1,0 +1,10 @@
+states: q0, q1, q2
+alphabet: a, b
+start: q0
+accept: q2
+transitions:
+q0,a,q1
+q0,a,q2
+q1,b,q2
+q2,a,q1
+q2,b,q0 
